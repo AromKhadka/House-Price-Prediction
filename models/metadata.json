@@ -1,24 +1,28 @@
 {
-    "best_model": "LinearRegression",
-    "lr_r2": -0.0024232104949428734,
-    "rf_r2": -0.014109451641307169,
-    "lr_mse": 1.3901269810599796e+26,
-    "rf_mse": 1.406333069421315e+26,
-    "selected_r2": -0.0024232104949428734,
-    "selected_mse": 1.3901269810599796e+26,
-    "sigma_residual": 11776105272087.09,
+    "best_model": "RandomForestRegressor",
+    "lr_r2": -0.003445238345756829,
+    "rf_r2": 0.08765913692411353,
+    "lr_mse": 6.901368647769009,
+    "rf_mse": 6.274782507205333,
+    "selected_r2": 0.08765913692411353,
+    "selected_mse": 6.274782507205333,
+    "sigma_residual": 2.504909676072055,
     "features": {
         "categorical": [
-            "city"
+            "city",
+            "road type",
+            "face"
         ],
         "numerical": [
             "area",
             "bedrooms",
-            "bathrooms"
+            "bathrooms",
+            "floors",
+            "parking",
+            "year",
+            "road_width",
+            "road_distance_score"
         ]
     },
-    "defaults": {
-        "bedrooms": 2,
-        "bathrooms": 1
-    }
+    "note": "Price was log-transformed using log1p for better regression stability"
 }
