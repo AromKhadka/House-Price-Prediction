@@ -1,0 +1,24 @@
+{
+    "best_model": "LinearRegression",
+    "lr_r2": -0.0024232104949428734,
+    "rf_r2": -0.014109451641307169,
+    "lr_mse": 1.3901269810599796e+26,
+    "rf_mse": 1.406333069421315e+26,
+    "selected_r2": -0.0024232104949428734,
+    "selected_mse": 1.3901269810599796e+26,
+    "sigma_residual": 11776105272087.09,
+    "features": {
+        "categorical": [
+            "city"
+        ],
+        "numerical": [
+            "area",
+            "bedrooms",
+            "bathrooms"
+        ]
+    },
+    "defaults": {
+        "bedrooms": 2,
+        "bathrooms": 1
+    }
+}
